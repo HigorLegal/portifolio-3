@@ -1,0 +1,83 @@
+@media screen and (min-width: 758px){
+    
+    header a:hover{
+            border-radius: 5px;
+            box-shadow: 0 0 20px white;
+            color: #ffffff;
+            transform: scale(1.10);
+            padding: 13px 23px;
+    }
+    header{
+        flex-direction: row;
+        justify-content: space-evenly;
+     }
+     .contato{
+        padding: 50px;
+         display: flex;
+         flex-direction: row;
+        justify-content: center
+     }
+    
+     .contato div{
+        padding: 30px;
+     
+     }
+}   
+@media screen and (max-width: 648px){   
+   nav{
+    text-align: center;
+   }
+    nav ul{ 
+    padding-left: 0px;
+    text-align: center;
+ gap: 3px;
+   }
+   nav ul a{ 
+    border-radius: 20px;
+    color: white;
+    text-decoration: none;
+    padding: 5px 9px;
+    background: linear-gradient(to top, rgb(67, 2, 97), black);
+    cursor: pointer;
+    transition: 0.8s ease;
+    margin-bottom: 20px;     
+   }
+   header{
+        flex-direction: column;
+         }
+    #about{
+        left: 0px;
+        display: contents;
+        width: 100px; 
+     }
+    .card{
+        width: 80%;
+        height: auto;
+        top: -20px;
+    }
+    #item-1:checked ~ .cards #slide-3,
+    #item-2:checked ~ .cards #slide-1,
+    #item-3:checked ~ .cards #slide-2{
+        transform: translateY(-0%) scale(0.8);
+        opacity: 0.4;
+        z-index: 0;
+    }
+    
+    #item-1:checked ~ .cards #slide-2,
+    #item-2:checked ~ .cards #slide-3,
+    #item-3:checked ~ .cards #slide-1{
+        transform: translateY(25%) scale(0.8);
+        opacity: 0.4;
+        z-index: 0;
+    }
+    .contato{
+        flex-direction: column;
+    }
+    .info ion-icon{
+margin-left: 20px;
+    }
+    .info #texts{
+        margin-left:40px; 
+}
+    }
+ 
