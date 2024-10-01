@@ -22,6 +22,9 @@
         padding: 30px;
      
      }
+     .cards{
+        margin-bottom:100px ;
+     }
 }   
 @media screen and (max-width: 648px){   
    nav{
@@ -51,6 +54,7 @@
         width: 100px; 
      }
     .card{
+         
         width: 80%;
         height: auto;
         top: -20px;
