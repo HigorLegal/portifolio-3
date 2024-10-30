@@ -1,5 +1,7 @@
+<h1 align="center">
+Portifolio 3
+</h1><br>
 
-# Portifolio 3
 
 ## Integrantes
 
