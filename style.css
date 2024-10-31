@@ -89,7 +89,6 @@ border-radius: 20px;
 padding-bottom: 20px;
 }
  
- 
  .card{
     font-size: 100%; 
     cursor: pointer;
@@ -118,7 +117,7 @@ padding-bottom: 20px;
 
  .cards{
     margin-top: 100px;
-    margin-bottom:100px ;
+   
     position: relative;
     width: 100%;
     
@@ -262,4 +261,11 @@ footer{
     display: flex;
     justify-content: center;    
 }
-
+.Soft-Skills b{ 
+    color: rgb(238, 127, 255);
+    font-size: 20px;
+}
+#about b{ 
+    color: rgb(238, 127, 255);
+    font-size: 20px;
+}
